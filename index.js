@@ -22,9 +22,15 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
-let hacker1Cap = ''
-for(i = 0; i < hacker1.length; i++){
-    hacker1Cap += hacker1[i].toUpperCase() + ' '
-
+let hacker1Cap = "";
+for (i = 0; i < hacker1.length; i++) {
+  hacker1Cap += hacker1[i].toUpperCase() + " ";
 }
 console.log(hacker1Cap);
+
+let hacker2Rev = "";
+
+for (i = hacker2.length - 1; i >= 0; i--) {
+  hacker2Rev += hacker2[i];
+}
+console.log(hacker2Rev);
