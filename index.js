@@ -58,3 +58,34 @@ for (let i = 0; i < words.length; i++) {
   }
 }
 console.log(`There's ${etCount} "et" in these 3 paragraphs`);
+
+
+let phraseToCheck = "taco cat";
+let phraseToCheck2 = '';
+let phraseReversed = '';
+
+
+for(let i = 0; i < phraseToCheck.length; i++){
+    if ( typeof phraseToCheck[i] !== )
+    // if(phraseToCheck[i].toLowerCase !== phraseToCheck[i].toUpperCase()){
+    //     phraseToCheck2 += phraseToCheck[i];
+    // } 
+    }
+
+ 
+for (let i=phraseToCheck.length-1; i>=0; i--){
+
+//  if (phraseToCheck[i].toLowerCase !== phraseToCheck[i].toUpperCase()) {
+//     phraseReversed += phraseToCheck[i];
+//  } 
+}
+
+console.log(phraseToCheck2, phraseReversed)
+
+if(phraseReversed.toUpperCase() === phraseToCheck2.toUpperCase()){
+    console.log('This is a palindrome')
+} else {
+    console.log('This is not a palindrome sorry')
+}
+
+
