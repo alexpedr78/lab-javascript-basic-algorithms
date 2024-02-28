@@ -22,3 +22,9 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
+let hacker1Cap = ''
+for(i = 0; i < hacker1.length; i++){
+    hacker1Cap += hacker1[i].toUpperCase() + ' '
+
+}
+console.log(hacker1Cap);
