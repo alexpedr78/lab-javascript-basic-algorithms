@@ -34,3 +34,12 @@ for (i = hacker2.length - 1; i >= 0; i--) {
   hacker2Rev += hacker2[i];
 }
 console.log(hacker2Rev);
+
+if(hacker1.toLowerCase() > hacker2.toUpperCase()){
+    console.log(`The driver's name goes first.`);
+} else if(hacker1.toLowerCase() < hacker2.toUpperCase()) {
+        console.log(`Yo, the navigator goes first, definitely.`);
+    } else {
+        console.log(`What?! You both have the same name?`)
+    }
+
